@@ -69,9 +69,10 @@ header {
     background-color: lightcoral;
     height: 800px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 iframe { 
@@ -85,7 +86,9 @@ iframe {
 .section-four {
     background-color: darkslateblue;
     height: 500px;
-    
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* section 5 media items */
@@ -125,4 +128,11 @@ li{
     border: 1px solid limegreen;
     border-radius: 10px;
     background-color: aliceblue;
+}
+
+figcaption{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
 }
